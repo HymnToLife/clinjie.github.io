@@ -7,7 +7,7 @@
 
 <html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
+  <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -98,7 +98,7 @@
 <meta property="og:image" content="http://opu8lkq3n.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-10-13%20%E4%B8%8A%E5%8D%889.55.39.png">
 <meta property="og:image" content="http://opu8lkq3n.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-10-13%20%E4%B8%8A%E5%8D%889.55.47.png">
 <meta property="og:image" content="http://opu8lkq3n.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-10-13%20%E4%B8%8A%E5%8D%889.55.55.png">
-<meta property="og:updated_time" content="2018-10-13T01:59:27.485Z">
+<meta property="og:updated_time" content="2018-10-13T14:00:32.042Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="shell学习记录">
 <meta name="twitter:description" content="shell学习最简单的shell命令： 12#!/bin/bashecho &quot;hello world&quot; 保存为test.sh，为该文件添加x权限chmod +x test.sh，随后使用./test.sh执行该脚本 变量shell中可以像其他语言中一样定义变量/使用变量，需要注意的是，变量定义的时候等号前后不要有空格；在使用变量的时候，要在变量名前面添加$访问 12345#!/bin/bashmy">
@@ -136,7 +136,7 @@
 
 
 
-  <title> shell学习记录 | 临街小站 </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title> shell学习记录 | 临街小站 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -145,7 +145,7 @@
 
 
 
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><script type="text/javascript">
+  <script type="text/javascript">
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -400,6 +400,7 @@
 <p>执行脚本，返回结果：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hello world</span><br><span class="line">myNum</span><br></pre></td></tr></table></figure>
 <p>使用<code>$</code>符号的变量可以正常被访问，否则输出的将是纯文本内容</p>
+<a id="more"></a>
 <h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"hello world!"</span></span><br><span class="line">a=3</span><br><span class="line">b=5</span><br><span class="line">val=`expr <span class="variable">$a</span> + <span class="variable">$b</span>`</span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Total value : <span class="variable">$val</span>"</span></span><br><span class="line">val=`expr <span class="variable">$a</span> - <span class="variable">$b</span>`</span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Total value : <span class="variable">$val</span>"</span></span><br></pre></td></tr></table></figure>
 <p>几个注意的点：val定义的时候，符号既不是双引号也不是单引号，而是反单引号，同时要在前面加上<code>expr</code>关键字</p>
 <p><img src="http://opu8lkq3n.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-10-13%20%E4%B8%8A%E5%8D%889.55.29.png" alt=""></p>
@@ -477,6 +478,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2018/10/26/Monty-Hall-problem/" rel="prev" title="三门问题 记录">
+                三门问题 记录 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -547,7 +552,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">188</span>
+              <span class="site-state-item-count">190</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -555,7 +560,7 @@
           
             <div class="site-state-item site-state-categories">
               
-                <span class="site-state-item-count">38</span>
+                <span class="site-state-item-count">39</span>
                 <span class="site-state-item-name">分类</span>
               
             </div>
@@ -564,7 +569,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">69</span>
+                <span class="site-state-item-count">70</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -662,7 +667,7 @@
         <div class="copyright" >
   
   &copy; 
-  <span itemprop="copyrightYear">2018</span>
+  <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -1060,23 +1065,6 @@
 <script type="text/javascript" src="/js/src/love.js"></script>
 <!-- 颗粒漂浮背景 -->
 <script type="text/javascript" src="/js/src/particle.js"></script>
-<script type="text/javascript">var OriginTitile=document.title,st;document.addEventListener("visibilitychange",function(){document.hidden?(document.title="你要去哪里",clearTimeout(st)):(document.title="clinjie~~"+OriginTitile,st=setTimeout(function(){document.title=OriginTitile},3e3))})</script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}},"messageStyle":"none"});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-      all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
-</script>
-
-<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<!-- End: Injected MathJax -->
-<!-- hexo-inject:end -->
+<script type="text/javascript">var OriginTitile=document.title,st;document.addEventListener("visibilitychange",function(){document.hidden?(document.title="你要去哪里",clearTimeout(st)):(document.title="clinjie~~"+OriginTitile,st=setTimeout(function(){document.title=OriginTitile},3e3))})</script>
 </body>
 </html>
